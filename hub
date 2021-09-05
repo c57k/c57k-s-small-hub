@@ -12,7 +12,7 @@ print ("The Commands Are")
                print (".rejoin /e rejoin")
                print (".antigh /e antigh")
                print (".nodelay /e nodelay")
-game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents").SayMessageRequest:FireServer("loaded | new server 4BH3mSh52s ","All")
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents").SayMessageRequest:FireServer("loaded ","All")
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Enjoy",
                 Text = "Loaded! Script Made by c57k! Check F9 For Commands.",
