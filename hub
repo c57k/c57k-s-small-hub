@@ -144,3 +144,14 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/JXbJww1C'),true))()
 end
 end)
 
+game:GetService("Players").LocalPlayer.Chatted:connect(function(msg)
+if (string.lower(msg) == ".nodelay") then
+loadstring(game:HttpGet(('https://pastebin.com/raw/R9cfhJ44'),true))()
+end
+end)
+
+game:GetService("Players").LocalPlayer.Chatted:connect(function(msg)
+if (string.lower(msg) == "/e nodelay") then
+loadstring(game:HttpGet(('https://pastebin.com/raw/R9cfhJ44'),true))()
+end
+end)
