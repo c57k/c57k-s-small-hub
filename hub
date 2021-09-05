@@ -55,13 +55,13 @@ end)
 
 game:GetService("Players").LocalPlayer.Chatted:connect(function(msg)
 if (string.lower(msg) == "/e loadaim") then
-loadstring(game:HttpGet(('https://pastebin.com/raw/NcMXZPR1'),true))()
+loadstring(game:HttpGet(('https://pastebin.com/raw/k2JXhQ5X'),true))()
 end
 end)
 
 game:GetService("Players").LocalPlayer.Chatted:connect(function(msg)
 if (string.lower(msg) == ".loadaim") then
-loadstring(game:HttpGet(('https://pastebin.com/raw/NcMXZPR1'),true))()
+loadstring(game:HttpGet(('https://pastebin.com/raw/k2JXhQ5X'),true))()
 end
 end)
 
